@@ -1,0 +1,209 @@
+/*
+ * Estilos de tu proyecto
+ Botones, hover: `#FF00BF`
+  - Fondo de `footer`: `#333447`
+  - Título del formulario: `#352384`
+  - Texto del formulario: `#728099`
+  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
+ */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/**************style for nav********************/
+nav{
+  position: fixed;
+  top:0%;
+  width: 100%;
+  z-index: 10000;
+  background-color: pink;
+  height: 20%;
+}
+
+
+.img-main{
+   width: 70px;
+   height: 50px;
+
+   display: inline-block;
+   margin-left: 5%;
+}
+
+.list-main{
+   list-style: none;
+   /*outline: 2px solid red;*/
+   position: absolute;
+   top:0%;
+   left:50%;
+   width: 60%;
+   
+}
+
+.list-main li{
+   display:inline-block;
+   font-size: 25px;
+  margin: 4%;
+ 
+ color: white;
+  
+
+}
+
+.button-main{
+box-sizing: border-box;
+font-size: 25px;
+border-radius: 8px;
+border: 1px solid #fff;
+outline: none;
+background-color: transparent;
+padding: 5%;
+width: 100px;
+color: white;
+
+}
+
+.enlace-main{
+text-decoration: none;
+color: white;
+
+}
+
+
+
+/**************Style for footer****************************/
+
+
+.contenedor-footer {
+    background-color:#333447;
+    width: 100%;  
+    height: 300px; 
+    overflow: hidden;
+    margin-top:10%;
+ /*   outline: 3px solid rgb(103, 94, 221);*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer {
+line-height: 33px;
+list-style: none;
+color:white;
+/*outline: 3px solid rgb(127, 175, 14);*/
+float: left;
+margin-left: 10%;
+text-align: left;
+margin-top: 1%
+}
+
+.footer-img {
+    line-height: 33px;
+    list-style: none;
+    color: white;
+  /*  outline: 3px solid rgb(127, 175, 14);*/
+    float: left;
+    margin-left: 29%;
+    text-align: left;
+    margin-top: 1%
+}
+
+.name.footer{
+    text-align: center;
+}
+
+.list-footer {
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+
+figure {
+left: 50%;
+display:block;
+
+}
+
+figure img{
+    width: 130px;
+}
+
+.foot-hipv{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-hipv {
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot-hipv:hover{
+color: #EA0E89;
+text-decoration: underline;
+
+
+}
+
+/**************footer2***********************/
+
+.contein-footer-2{
+background-color:#333447;
+width: 100%;
+/*outline: 3px solid rgb(103, 94, 221);*/
+position: absolute;
+
+}
+.footer-2{
+ 
+ width: 60%;
+ /*outline: 3px solid rgb(103, 94, 221);*/
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.list-footer-2 {
+list-style: none;
+margin: 0;
+padding: 0;
+line-height: 30px;
+color: white;
+text-align: center;
+
+}
+
+.list-footer-2 li {
+    
+    display: inline-block;
+    margin: 2%;
+}
+
+
+.list-footer-2 li i {
+border: 1px solid white;
+border-radius: 100%;
+margin-left: 4px;
+width: 40px;
+height: 40px;
+box-sizing: border-box;
+padding-top: 11px;
+padding-left: 2px;
+
+
+}
+
+.footer-finish{
+    text-align: center;
+
+}
+.footer-finish{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 600px;
+}
